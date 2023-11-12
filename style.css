@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+    background-color: rgb(241, 241, 241);
+    font-weight: light;
+}
+
+p{
+    margin: 15px 0;
+}
+
+h1,
+h3,
+h4{
+    margin: 10px 0;
+}
+
+h1,
+h3{
+    text-transform: uppercase;
+}
+
+hr{
+    border: 0;
+}
+
+/*=======*/
+.pad-32-16{
+    padding: 32px 16px;
+}
+
+.pad-12-24{
+    padding: 12px 24px;
+}
+
+.pad-2-8{
+    padding: 2px 8px;
+}
+
+.pad-015-16{
+    padding: 0.15px 16px;
+}
+
+.pad-8-16{
+    padding: 8px 16px;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.box-shadow{
+    box-shadow: 0 0 10px #a1a1a1;
+}
+
+.bg-black-color-white{
+    background-color: black;
+    color: white;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.opacity{
+    color: #696969;
+}
+
+.fw-1{
+    font-weight: 1;
+}
+
+.in-bl{
+    display: inline-block;
+}
+
+.vertical-midle{
+    vertical-align: middle;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*=============*/
+
+/*------Heading-----*/
+header{
+    text-align: center;
+}
+
+header h1{
+    font-weight: 1;
+}
+
+/*------Main------*/
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/*=left=*/
+.left-content{
+    width: 100%;
+    /* flex: 70%; */
+}
+
+.card
+{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card .pic-cap{
+    background-color: white;
+}
+
+.left-content .card .pic-cap button{
+    margin: 15px 0;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.left-content .card .pic-cap button:hover{
+    background-color: #ccc;
+}
+
+/*=right=*/
+.right-content{
+    width: 100%;
+    /* flex: 30%; */
+}
+
+.right-content img{
+    width: 100%;
+}
+
+.right-content .card h4{
+    background-color: rgb(241, 241, 241);
+    vertical-align: middle;
+}
+
+.right-content .list li{
+    list-style-type: none;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+.list .list-item img{
+    width: 15%;
+    margin-right: 15px;
+}
+
+.list .list-item .side-pic{
+    
+}
+
+.list .list-item .side-pic p{
+    margin: 0;
+}
+
+/*------Tag-------*/
+.tag .tag-item{
+    background-color: white;
+}
+
+.tag .tag-item span{
+    padding: 0 8px;
+    margin-bottom: 16px!important;
+    background-color: rgb(241, 241, 241);
+    display: inline-block; /*Thêm này để set margin*/
+}
+
+.tag .tag-item span:first-child{
+    font-size: 17px;
+    background-color: black;
+    color: white;
+}
+
+/*------Footer-------*/
+footer{
+    width: 100%;
+    background-color: rgb(97, 97, 97);
+    margin-top: 16px;
+}
+
+footer button{
+    margin-bottom: 16px;
+    border: none;
+    
+}
+
+.previous{
+    background-color: #808080;
+    filter: brightness(50%);
+}
+
+footer button:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+footer p,
+footer a{
+    color: white;
+}
